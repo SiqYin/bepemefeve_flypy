@@ -110,7 +110,7 @@
 | **Q** | ieu | **A** | a（**＋ㄫ 的聲母鍵**） | **Z** | eu |
 | **W** | ei／uei | **S** | ung／yung | **X** | ia／ua |
 | **E** | e | **D** | ai／iai | **C** | au |
-| **R** | uan／yuan | **F** | en | **V** | yu（**＋ㄓ、ㄪ 的聲母鍵**） |
+| **R** | uan／yuan | **F** | en | **V** | yu（**＋ㄪ 的聲母鍵**；ㄓ 也借用 V，與小鶴相同） |
 | **T** | yuee／io | **G** | eng | **B** | in |
 | **Y** | yun／un | **H** | ang | **N** | iau（**＋ㄬ 的聲母鍵**） |
 | **U** | u | **J** | an | **M** | ian |
