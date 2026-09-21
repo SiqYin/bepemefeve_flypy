@@ -107,7 +107,7 @@
 
 | 鍵 | 韻母 | 鍵 | 韻母 | 鍵 | 韻母 |
 |---|---|---|---|---|---|
-| **Q** | ieu（iu） | **A** | a（**＋ㄫ 的聲母鍵**） | **Z** | eu |
+| **Q** | ieu | **A** | a（**＋ㄫ 的聲母鍵**） | **Z** | eu |
 | **W** | ei／uei | **S** | ung／yung | **X** | ia／ua |
 | **E** | e | **D** | ai／iai | **C** | au |
 | **R** | uan／yuan | **F** | en | **V** | yu（**＋ㄓ、ㄪ 的聲母鍵**） |
@@ -152,7 +152,7 @@
 
 已經在用**小鶴雙拼**的人，只需要記住下面幾條：
 
-**① 手指完全一樣的（絕大多數）**：a o e i u、ai ei an en ang eng in ing、ia ua iang uang ing uai、uan、ian、iao、ie、iu、ei、en、eng、ang、an、ai、ue、er、uo……
+**① 手指完全一樣的（絕大多數）**：a o e i u、ai ei an en ang eng in ing、ia ua iang uang ing uai、uan、ian、iao、ie、ieu、ei、en、eng、ang、an、ai、ue、er、uo……
 
 **② 手指不同的一處**：
 - `uei（ui）`：小鶴在 **V**，本方案在 **W**（對＝`dw`，會＝`hw`，最＝`zw`）。
