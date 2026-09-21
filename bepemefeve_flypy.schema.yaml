@@ -14,7 +14,7 @@ schema:
 
     鍵位沿用「小鶴雙拼」，與普通話讀音不同之處，正是鍵位不同之處。
 
-    拼音轉寫沿用「國語拼音」方案（bepemefeve_pingyin），字表（bepemefeve.dict.yaml）無需改動。
+    拼音轉寫基於老國音衆多拼音方案並自行調整，字表（bepemefeve.dict.yaml）無需改動。
 
     鍵位：
       Q ieu　W ei/uei　E e　R uan/yuan　T yuee/io　Y yun/un　U u　I i　O uo/o　P iee/ee
