@@ -1,0 +1,250 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: bepemefeve_flypy
+  name: 國語雙拼
+  version: '2026.09.21'
+  author:
+    - 雪螢 <siqyin@qq.com>
+  description: |
+    老國音（bepemefeve）小鶴式雙拼方案
+
+    每音節固定兩鍵：聲母鍵 + 韻母鍵；聲調用 67890（陰、陽、上、去、入），可省略不輸入。
+
+    鍵位沿用「小鶴雙拼」，與普通話讀音不同之處，正是鍵位不同之處。
+
+    拼音轉寫沿用「國語拼音」方案（bepemefeve_pingyin），字表（bepemefeve.dict.yaml）無需改動。
+
+    鍵位：
+      Q ieu　W ei/uei　E e　R uan/yuan　T yuee/io　Y yun/un　U u　I i　O uo/o　P iee/ee
+      A a（另作 ㄫ 的聲母鍵）　S ung/yung　D ai/iai　F en　G eng　H ang　J an
+      K ing/uai　L iang/uang
+      Z eu　X ia/ua　C au　V yu（另作 ㄓ、ㄪ 的聲母鍵）　B in　N iau（另作 ㄬ）
+      M ian
+
+    零聲母音節：拼式首字母佔聲母位。如 ㄨㄟ=WW、ㄨㄣ=WF、ㄩㄛ=YO、ㄧㄤ=YH。
+    空韻母：ㄓ=VI、ㄔ=II、ㄕ=UI、ㄖ=RI；ㄗ/ㄗㄧ 同作 ZI，ㄘ/ㄘㄧ 同作 CI，ㄙ/ㄙㄧ 同作 SI。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [漢字, 洋文]
+  - name: full_shape
+    states: [半角, 全角]
+  - name: ascii_punct
+    states: [句讀, 符號]
+  - options: [ noop,  variants_hk, trad_tw, varients_jp, simplification]
+    states: [ 漢字,  香港傳統漢字, 臺灣傳統漢字, 日本新字体,  大陆简化汉字]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - script_translator
+  filters:
+    - simplifier@variants_hk
+    - simplifier@trad_tw
+    - simplifier@varients_jp
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba67890'
+  initials: 'zyxwvutsrqponmlkjihgfedcba'
+  finals: "67890"
+  delimiter: " '"
+  algebra:
+    # ① 注音 → 拼音（與「國語拼音」方案一致）
+    # ㄬ 直接寫作大寫佔位，免得與「ㄋ+ㄩ = nyu」相混
+    - xform/^([^·]*[^ˊˇˋ˙])$/$1ˉ/
+    - xlit/ㄅㄆㄇㄈㄪ/bpmfv/
+    - xlit/ㄉㄊㄋㄌ/dtnl/
+    - xform/ㄍ/g/
+    - xform/ㄎ/k/
+    - xform/ㄫ/ng/
+    - xform/ㄏ/h/
+    - xform/ㄐ/j/
+    - xform/ㄑ/q/
+    - xform/ㄬ/N/
+    - xform/ㄒ/x/
+    - xform/ㄓ/zh/
+    - xform/ㄔ/ch/
+    - xform/ㄕ/sh/
+    - xform/ㄖ/r/
+    - xform/ㄗ/z/
+    - xform/ㄘ/c/
+    - xform/ㄙ/s/
+    - xform/ㄧ/i/
+    - xform/ㄨ/u/
+    - xform/ㄩ/yu/
+    - xform/ㄚ/a/
+    - xform/ㄛ/o/
+    - xform/ㄜ/e/
+    - xform/ㄝ/ee/
+    - xform/ㄞ/ai/
+    - xform/ㄟ/ei/
+    - xform/ㄠ/au/
+    - xform/ㄡ/eu/
+    - xform/ㄢ/an/
+    - xform/ㄣ/en/
+    - xform/ㄤ/ang/
+    - xform/ㄥ/eng/
+    - xform/ㄦ/er/
+    - xlit/ˉˊˇˋ˙/12345/
+    - xform/·//
+
+    # ② 音節結構（與「國語拼音」方案一致）
+    - xform/(yu|i|u)e(ng?)/$1$2/
+    - xform/^i([aeo])/y$1/
+    - xform/^i/yi/
+    - xform/^u([aeo])/w$1/
+    - xform/^u/wu/
+    - xform/^(z|c|s)i([12345]|$)/$1yi$2/
+    - xform/^(zh|ch|sh|r|z|c|s)([12345]|$)/$1i$2/
+
+    # ③ 聲調 → 67890
+    - xlit/12345/67890/
+
+    # ④ 成音節鼻音與罕見音節
+    - xform/^hng([67890]|$)/HA$1/
+    - xform/^hm([67890]|$)/HM$1/
+    - xform/^ng([67890]|$)/NG$1/
+    - xform/^m([67890]|$)/MM$1/
+    - xform/^n([67890]|$)/NN$1/
+    - xform/^wuing([67890]|$)/WK$1/
+
+    # ⑤ 零聲母：拼式首字母佔聲母位，其餘即韻母
+    - xform/^wun([67890]|$)/wen$1/
+    - xform/^a([67890]|$)/AA$1/
+    - xform/^o([67890]|$)/OO$1/
+    - xform/^e([67890]|$)/EE$1/
+    - xform/^ai([67890]|$)/AI$1/
+    - xform/^ei([67890]|$)/EI$1/
+    - xform/^au([67890]|$)/AU$1/
+    - xform/^eu([67890]|$)/EU$1/
+    - xform/^an([67890]|$)/AN$1/
+    - xform/^en([67890]|$)/EN$1/
+    - xform/^ang([67890]|$)/AH$1/
+    - xform/^eng([67890]|$)/EG$1/
+    - xform/^er([67890]|$)/ER$1/
+
+    # ⑥ 聲母單鍵化
+    - xform/^zh/V/
+    - xform/^ch/I/
+    - xform/^sh/U/
+    - xform/^ng/A/
+    - xform/^v/V/
+
+    # ⑦ 韻母單鍵化（長者先；yu 系先於 u 系）
+    - xform/(.)yuee([67890]|$)/$1T$2/
+    - xform/(.)yung([67890]|$)/$1S$2/
+    - xform/(.)yuan([67890]|$)/$1R$2/
+    - xform/(.)yun([67890]|$)/$1Y$2/
+    - xform/(.)yuo([67890]|$)/$1O$2/
+    - xform/(.)iang([67890]|$)/$1L$2/
+    - xform/(.)uang([67890]|$)/$1L$2/
+    - xform/(.)iee([67890]|$)/$1P$2/
+    - xform/(.)iai([67890]|$)/$1D$2/
+    - xform/(.)iau([67890]|$)/$1N$2/
+    - xform/(.)ieu([67890]|$)/$1Q$2/
+    - xform/(.)ian([67890]|$)/$1M$2/
+    - xform/(.)ing([67890]|$)/$1K$2/
+    - xform/(.)uai([67890]|$)/$1K$2/
+    - xform/(.)uei([67890]|$)/$1W$2/
+    - xform/(.)uan([67890]|$)/$1R$2/
+    - xform/(.)ung([67890]|$)/$1S$2/
+    - xform/(.)uee([67890]|$)/$1T$2/
+    - xform/(.)ee([67890]|$)/$1P$2/
+    - xform/(.)ang([67890]|$)/$1H$2/
+    - xform/(.)eng([67890]|$)/$1G$2/
+    - xform/(.)ai([67890]|$)/$1D$2/
+    - xform/(.)ei([67890]|$)/$1W$2/
+    - xform/(.)au([67890]|$)/$1C$2/
+    - xform/(.)eu([67890]|$)/$1Z$2/
+    - xform/(.)an([67890]|$)/$1J$2/
+    - xform/(.)en([67890]|$)/$1F$2/
+    - xform/(.)ia([67890]|$)/$1X$2/
+    - xform/(.)ua([67890]|$)/$1X$2/
+    - xform/(.)uo([67890]|$)/$1O$2/
+    - xform/(.)io([67890]|$)/$1T$2/
+    - xform/(.)in([67890]|$)/$1B$2/
+    - xform/(.)un([67890]|$)/$1Y$2/
+    - xform/(.)yu([67890]|$)/$1V$2/
+    - xform/(.)yi([67890]|$)/$1I$2/
+    - xform/(.)a([67890]|$)/$1A$2/
+    - xform/(.)o([67890]|$)/$1O$2/
+    - xform/(.)e([67890]|$)/$1E$2/
+    - xform/(.)i([67890]|$)/$1I$2/
+    - xform/(.)u([67890]|$)/$1U$2/
+
+    # ⑧ 收尾：大寫佔位轉小寫
+    - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+
+    # ⑨ 輸入變體
+    # 可不打聲調
+    - derive/^([a-z]+)[67890]$/$1/
+    # 首字母簡拼（預設關閉，同小鶴）
+    #- abbrev/^([a-z]).+$/$1/
+
+translator:
+  dictionary: bepemefeve
+  prism: bepemefeve_flypy
+  spelling_hints: 1
+  preedit_format:
+    - xlit/67890/１２３４５/
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+punctuator:
+  import_preset: symbols_wu
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: paging, accept: minus, send: Page_Up }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+    punct: "^/([0-9]0?|[a-z]+)$"
+
+variants_hk:
+  option_name: variants_hk
+  opencc_config: t2hk.json
+
+trad_tw:
+  option_name: trad_tw
+  opencc_config: t2tw.json
+
+
+varients_jp:
+  option_name: varients_jp
+  opencc_config: t2jp.json
+
+__patch:
+  # 使用八股文語言模型
+  - grammar:/hant?
