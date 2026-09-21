@@ -1,121 +1,272 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 486" width="900" height="486" role="img">
-<title>老國音小鶴雙拼 鍵位圖</title>
-<desc>二十六個字母鍵各自的韻母；藍色為小鶴雙拼沒有的新內容，橙色為與小鶴指法不同者，灰色為與小鶴相同。</desc>
-<rect x="0" y="0" width="900" height="486" fill="#FFFFFF"/>
-<text x="34" y="34" font-family="sans-serif" font-size="19" font-weight="500" fill="#2C2C2A">國語雙拼 · bepemefeve_flypy</text>
-<text x="34" y="56" font-family="sans-serif" font-size="13" fill="#5F5E5A">一聲母鍵 + 一韻母鍵 = 兩鍵一音節；聲調 6 7 8 9 0 接第三鍵，可省</text>
-<rect x="34" y="70" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="54" y="81" font-family="sans-serif" font-size="12.5" fill="#444441">與小鶴相同</text>
-<rect x="166" y="70" width="14" height="14" rx="3" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="186" y="81" font-family="sans-serif" font-size="12.5" fill="#185FA5">小鶴沒有的新內容</text>
-<rect x="358" y="70" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
-<text x="378" y="81" font-family="sans-serif" font-size="12.5" fill="#854F0B">指法與小鶴不同</text>
-<text x="560" y="81" font-family="sans-serif" font-size="12.5" fill="#5F5E5A">借用鍵：ㄫ→A　ㄬ→N　ㄪ→V</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 782" width="900" height="782" role="img">
+<title>老國音小鶴雙拼：注音—拼音對照圖與鍵位圖</title>
+<desc>上半為老國音注音符號與本方案所用拼音的對應關係（聲母 24、韻母 16、聲調 5），下半為國語雙拼的二十六鍵鍵位圖。</desc>
+<rect x="0" y="0" width="900" height="782" fill="#FFFFFF"/>
+<text x="34" y="36" font-family="sans-serif" font-size="19" font-weight="500" fill="#2C2C2A">國語雙拼 · bepemefeve_flypy</text>
+<text x="34" y="58" font-family="sans-serif" font-size="13" fill="#5F5E5A">老國音（《校改國音字典》）注音符號 → 本方案拼音 → 每個音節兩鍵；聲調 6 7 8 9 0 接第三鍵，可省</text>
+
+<text x="34" y="92" font-family="sans-serif" font-size="15" font-weight="500" fill="#2C2C2A">① 注音符號 → 本方案拼音</text>
+<text x="34" y="139" font-family="sans-serif" font-size="13" fill="#5F5E5A">聲母</text>
+<text x="34" y="219" font-family="sans-serif" font-size="13" fill="#5F5E5A">韻母</text>
+<text x="34" y="280" font-family="sans-serif" font-size="13" fill="#5F5E5A">聲調</text>
 
 <g font-family="sans-serif">
-<rect x="34" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="44" y="116" font-size="12" fill="#888780">Q</text>
-<text x="72" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ieu</text>
-<rect x="118" y="96" width="76" height="76" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
-<text x="128" y="116" font-size="12" fill="#854F0B">W</text>
-<text x="156" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#633806">ei</text>
-<text x="156" y="160" font-size="11" text-anchor="middle" fill="#633806">uei</text>
-<rect x="202" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="212" y="116" font-size="12" fill="#888780">E</text>
-<text x="240" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">e</text>
-<rect x="286" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="296" y="116" font-size="12" fill="#888780">R</text>
-<text x="324" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">uan</text>
-<text x="324" y="160" font-size="11" text-anchor="middle" fill="#5F5E5A">yuan</text>
-<rect x="370" y="96" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="380" y="116" font-size="12" fill="#185FA5">T</text>
-<text x="408" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">yuee</text>
-<text x="408" y="160" font-size="11" text-anchor="middle" fill="#0C447C">io</text>
-<rect x="454" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="464" y="116" font-size="12" fill="#888780">Y</text>
-<text x="492" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">yun</text>
-<text x="492" y="160" font-size="11" text-anchor="middle" fill="#5F5E5A">un</text>
-<rect x="538" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="548" y="116" font-size="12" fill="#888780">U</text>
-<text x="576" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">u</text>
-<text x="576" y="160" font-size="11" text-anchor="middle" fill="#5F5E5A">sh</text>
-<rect x="622" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="632" y="116" font-size="12" fill="#888780">I</text>
-<text x="660" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">i</text>
-<text x="660" y="160" font-size="11" text-anchor="middle" fill="#5F5E5A">ch</text>
-<rect x="706" y="96" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="716" y="116" font-size="12" fill="#888780">O</text>
-<text x="744" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">uo</text>
-<text x="744" y="160" font-size="11" text-anchor="middle" fill="#5F5E5A">o</text>
-<rect x="790" y="96" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="800" y="116" font-size="12" fill="#185FA5">P</text>
-<text x="828" y="142" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">iee</text>
-<text x="828" y="160" font-size="11" text-anchor="middle" fill="#0C447C">ee</text>
+<rect x="96" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="124" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄅ</text>
+<text x="124" y="127" font-size="12" text-anchor="middle" fill="#185FA5">b</text>
+<rect x="156" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="184" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄆ</text>
+<text x="184" y="127" font-size="12" text-anchor="middle" fill="#185FA5">p</text>
+<rect x="216" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="244" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄇ</text>
+<text x="244" y="127" font-size="12" text-anchor="middle" fill="#185FA5">m</text>
+<rect x="276" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="304" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄈ</text>
+<text x="304" y="127" font-size="12" text-anchor="middle" fill="#185FA5">f</text>
+<rect x="336" y="100" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="364" y="113" font-size="14" text-anchor="middle" fill="#0C447C">ㄪ</text>
+<text x="364" y="127" font-size="12" text-anchor="middle" fill="#185FA5">v</text>
+<rect x="396" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="424" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄉ</text>
+<text x="424" y="127" font-size="12" text-anchor="middle" fill="#185FA5">d</text>
+<rect x="456" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="484" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄊ</text>
+<text x="484" y="127" font-size="12" text-anchor="middle" fill="#185FA5">t</text>
+<rect x="516" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="544" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄋ</text>
+<text x="544" y="127" font-size="12" text-anchor="middle" fill="#185FA5">n</text>
+<rect x="576" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="604" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄌ</text>
+<text x="604" y="127" font-size="12" text-anchor="middle" fill="#185FA5">l</text>
+<rect x="636" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="664" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄍ</text>
+<text x="664" y="127" font-size="12" text-anchor="middle" fill="#185FA5">g</text>
+<rect x="696" y="100" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="724" y="113" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄎ</text>
+<text x="724" y="127" font-size="12" text-anchor="middle" fill="#185FA5">k</text>
+<rect x="756" y="100" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="784" y="113" font-size="14" text-anchor="middle" fill="#0C447C">ㄫ</text>
+<text x="784" y="127" font-size="12" text-anchor="middle" fill="#185FA5">ng</text>
 
-<rect x="76" y="180" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="86" y="200" font-size="12" fill="#185FA5">A</text>
-<text x="114" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">a</text>
-<text x="114" y="244" font-size="11" text-anchor="middle" fill="#0C447C">＋ㄫ</text>
-<rect x="160" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="170" y="200" font-size="12" fill="#888780">S</text>
-<text x="198" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ung</text>
-<text x="198" y="244" font-size="11" text-anchor="middle" fill="#5F5E5A">yung</text>
-<rect x="244" y="180" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="254" y="200" font-size="12" fill="#185FA5">D</text>
-<text x="282" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">ai</text>
-<text x="282" y="244" font-size="11" text-anchor="middle" fill="#0C447C">iai</text>
-<rect x="328" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="338" y="200" font-size="12" fill="#888780">F</text>
-<text x="366" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">en</text>
-<rect x="412" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="422" y="200" font-size="12" fill="#888780">G</text>
-<text x="450" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">eng</text>
-<rect x="496" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="506" y="200" font-size="12" fill="#888780">H</text>
-<text x="534" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ang</text>
-<rect x="580" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="590" y="200" font-size="12" fill="#888780">J</text>
-<text x="618" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">an</text>
-<rect x="664" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="674" y="200" font-size="12" fill="#888780">K</text>
-<text x="702" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ing</text>
-<text x="702" y="244" font-size="11" text-anchor="middle" fill="#5F5E5A">uai</text>
-<rect x="748" y="180" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="758" y="200" font-size="12" fill="#888780">L</text>
-<text x="786" y="226" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">iang</text>
-<text x="786" y="244" font-size="11" text-anchor="middle" fill="#5F5E5A">uang</text>
+<rect x="96" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="124" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄏ</text>
+<text x="124" y="165" font-size="12" text-anchor="middle" fill="#185FA5">h</text>
+<rect x="156" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="184" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄐ</text>
+<text x="184" y="165" font-size="12" text-anchor="middle" fill="#185FA5">j</text>
+<rect x="216" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="244" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄑ</text>
+<text x="244" y="165" font-size="12" text-anchor="middle" fill="#185FA5">q</text>
+<rect x="276" y="138" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="304" y="151" font-size="14" text-anchor="middle" fill="#0C447C">ㄬ</text>
+<text x="304" y="165" font-size="12" text-anchor="middle" fill="#185FA5">ny</text>
+<rect x="336" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="364" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄒ</text>
+<text x="364" y="165" font-size="12" text-anchor="middle" fill="#185FA5">x</text>
+<rect x="396" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="424" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄓ</text>
+<text x="424" y="165" font-size="12" text-anchor="middle" fill="#185FA5">zh</text>
+<rect x="456" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="484" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄔ</text>
+<text x="484" y="165" font-size="12" text-anchor="middle" fill="#185FA5">ch</text>
+<rect x="516" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="544" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄕ</text>
+<text x="544" y="165" font-size="12" text-anchor="middle" fill="#185FA5">sh</text>
+<rect x="576" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="604" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄖ</text>
+<text x="604" y="165" font-size="12" text-anchor="middle" fill="#185FA5">r</text>
+<rect x="636" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="664" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄗ</text>
+<text x="664" y="165" font-size="12" text-anchor="middle" fill="#185FA5">z</text>
+<rect x="696" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="724" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄘ</text>
+<text x="724" y="165" font-size="12" text-anchor="middle" fill="#185FA5">c</text>
+<rect x="756" y="138" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="784" y="151" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄙ</text>
+<text x="784" y="165" font-size="12" text-anchor="middle" fill="#185FA5">s</text>
 
-<rect x="160" y="264" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="170" y="284" font-size="12" fill="#888780">Z</text>
-<text x="198" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">eu</text>
-<rect x="244" y="264" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="254" y="284" font-size="12" fill="#888780">X</text>
-<text x="282" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ia</text>
-<text x="282" y="328" font-size="11" text-anchor="middle" fill="#5F5E5A">ua</text>
-<rect x="328" y="264" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="338" y="284" font-size="12" fill="#888780">C</text>
-<text x="366" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">au</text>
-<rect x="412" y="264" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="422" y="284" font-size="12" fill="#185FA5">V</text>
-<text x="450" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">yu</text>
-<text x="450" y="328" font-size="11" text-anchor="middle" fill="#0C447C">＋ㄓ ㄪ</text>
-<rect x="496" y="264" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="506" y="284" font-size="12" fill="#888780">B</text>
-<text x="534" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">in</text>
-<rect x="580" y="264" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
-<text x="590" y="284" font-size="12" fill="#185FA5">N</text>
-<text x="618" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">iau</text>
-<text x="618" y="328" font-size="11" text-anchor="middle" fill="#0C447C">＋ㄬ</text>
-<rect x="664" y="264" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
-<text x="674" y="284" font-size="12" fill="#888780">M</text>
-<text x="702" y="310" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ian</text>
+<rect x="96" y="180" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="124" y="193" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄧ</text>
+<text x="124" y="207" font-size="12" text-anchor="middle" fill="#185FA5">i</text>
+<rect x="156" y="180" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="184" y="193" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄨ</text>
+<text x="184" y="207" font-size="12" text-anchor="middle" fill="#185FA5">u</text>
+<rect x="216" y="180" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="244" y="193" font-size="14" text-anchor="middle" fill="#0C447C">ㄩ</text>
+<text x="244" y="207" font-size="12" text-anchor="middle" fill="#185FA5">yu</text>
+<rect x="276" y="180" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="304" y="193" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄚ</text>
+<text x="304" y="207" font-size="12" text-anchor="middle" fill="#185FA5">a</text>
+<rect x="336" y="180" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="364" y="193" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄛ</text>
+<text x="364" y="207" font-size="12" text-anchor="middle" fill="#185FA5">o</text>
+<rect x="396" y="180" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="424" y="193" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄜ</text>
+<text x="424" y="207" font-size="12" text-anchor="middle" fill="#185FA5">e</text>
+<rect x="456" y="180" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="484" y="193" font-size="14" text-anchor="middle" fill="#0C447C">ㄝ</text>
+<text x="484" y="207" font-size="12" text-anchor="middle" fill="#185FA5">ee</text>
+<rect x="516" y="180" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="544" y="193" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄞ</text>
+<text x="544" y="207" font-size="12" text-anchor="middle" fill="#185FA5">ai</text>
+
+<rect x="96" y="218" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="124" y="231" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄟ</text>
+<text x="124" y="245" font-size="12" text-anchor="middle" fill="#185FA5">ei</text>
+<rect x="156" y="218" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="184" y="231" font-size="14" text-anchor="middle" fill="#0C447C">ㄠ</text>
+<text x="184" y="245" font-size="12" text-anchor="middle" fill="#185FA5">au</text>
+<rect x="216" y="218" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="244" y="231" font-size="14" text-anchor="middle" fill="#0C447C">ㄡ</text>
+<text x="244" y="245" font-size="12" text-anchor="middle" fill="#185FA5">eu</text>
+<rect x="276" y="218" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="304" y="231" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄢ</text>
+<text x="304" y="245" font-size="12" text-anchor="middle" fill="#185FA5">an</text>
+<rect x="336" y="218" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="364" y="231" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄣ</text>
+<text x="364" y="245" font-size="12" text-anchor="middle" fill="#185FA5">en</text>
+<rect x="396" y="218" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="424" y="231" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄤ</text>
+<text x="424" y="245" font-size="12" text-anchor="middle" fill="#185FA5">ang</text>
+<rect x="456" y="218" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="484" y="231" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄥ</text>
+<text x="484" y="245" font-size="12" text-anchor="middle" fill="#185FA5">eng</text>
+<rect x="516" y="218" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="544" y="231" font-size="14" text-anchor="middle" fill="#2C2C2A">ㄦ</text>
+<text x="544" y="245" font-size="12" text-anchor="middle" fill="#185FA5">er</text>
+
+<rect x="96" y="260" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="124" y="273" font-size="12" text-anchor="middle" fill="#2C2C2A">陰平</text>
+<text x="124" y="287" font-size="12" text-anchor="middle" fill="#185FA5">6</text>
+<rect x="156" y="260" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="184" y="273" font-size="12" text-anchor="middle" fill="#2C2C2A">陽平</text>
+<text x="184" y="287" font-size="12" text-anchor="middle" fill="#185FA5">7</text>
+<rect x="216" y="260" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="244" y="273" font-size="12" text-anchor="middle" fill="#2C2C2A">上聲</text>
+<text x="244" y="287" font-size="12" text-anchor="middle" fill="#185FA5">8</text>
+<rect x="276" y="260" width="56" height="32" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="304" y="273" font-size="12" text-anchor="middle" fill="#2C2C2A">去聲</text>
+<text x="304" y="287" font-size="12" text-anchor="middle" fill="#185FA5">9</text>
+<rect x="336" y="260" width="56" height="32" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="364" y="273" font-size="12" text-anchor="middle" fill="#0C447C">入聲</text>
+<text x="364" y="287" font-size="12" text-anchor="middle" fill="#185FA5">0</text>
+</g>
+<text x="620" y="278" font-family="sans-serif" font-size="12" fill="#5F5E5A">藍框＝普通話沒有的注音符號；</text>
+<text x="620" y="296" font-family="sans-serif" font-size="12" fill="#5F5E5A">其餘拼式與漢語拼音同理，僅 ㄠㄡ 寫 au/eu、ㄨㄥㄩㄥ 寫 ung/yung</text>
+
+<text x="34" y="330" font-family="sans-serif" font-size="15" font-weight="500" fill="#2C2C2A">② 雙拼鍵位</text>
+<rect x="34" y="344" width="14" height="14" rx="3" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="54" y="355" font-family="sans-serif" font-size="12.5" fill="#444441">與小鶴相同</text>
+<rect x="166" y="344" width="14" height="14" rx="3" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="186" y="355" font-family="sans-serif" font-size="12.5" fill="#185FA5">小鶴沒有的新內容</text>
+<rect x="358" y="344" width="14" height="14" rx="3" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
+<text x="378" y="355" font-family="sans-serif" font-size="12.5" fill="#854F0B">指法與小鶴不同</text>
+<text x="560" y="355" font-family="sans-serif" font-size="12.5" fill="#5F5E5A">借用鍵：ㄫ→A　ㄬ→N　ㄪ→V</text>
+
+<g font-family="sans-serif">
+<rect x="34" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="44" y="388" font-size="12" fill="#888780">Q</text>
+<text x="72" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ieu</text>
+<rect x="118" y="368" width="76" height="76" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
+<text x="128" y="388" font-size="12" fill="#854F0B">W</text>
+<text x="156" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#633806">ei</text>
+<text x="156" y="432" font-size="11" text-anchor="middle" fill="#633806">uei</text>
+<rect x="202" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="212" y="388" font-size="12" fill="#888780">E</text>
+<text x="240" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">e</text>
+<rect x="286" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="296" y="388" font-size="12" fill="#888780">R</text>
+<text x="324" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">uan</text>
+<text x="324" y="432" font-size="11" text-anchor="middle" fill="#5F5E5A">yuan</text>
+<rect x="370" y="368" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="380" y="388" font-size="12" fill="#185FA5">T</text>
+<text x="408" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">yuee</text>
+<text x="408" y="432" font-size="11" text-anchor="middle" fill="#0C447C">io</text>
+<rect x="454" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="464" y="388" font-size="12" fill="#888780">Y</text>
+<text x="492" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">yun</text>
+<text x="492" y="432" font-size="11" text-anchor="middle" fill="#5F5E5A">un</text>
+<rect x="538" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="548" y="388" font-size="12" fill="#888780">U</text>
+<text x="576" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">u</text>
+<text x="576" y="432" font-size="11" text-anchor="middle" fill="#5F5E5A">sh</text>
+<rect x="622" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="632" y="388" font-size="12" fill="#888780">I</text>
+<text x="660" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">i</text>
+<text x="660" y="432" font-size="11" text-anchor="middle" fill="#5F5E5A">ch</text>
+<rect x="706" y="368" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="716" y="388" font-size="12" fill="#888780">O</text>
+<text x="744" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">uo</text>
+<text x="744" y="432" font-size="11" text-anchor="middle" fill="#5F5E5A">o</text>
+<rect x="790" y="368" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="800" y="388" font-size="12" fill="#185FA5">P</text>
+<text x="828" y="414" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">iee</text>
+<text x="828" y="432" font-size="11" text-anchor="middle" fill="#0C447C">ee</text>
+
+<rect x="76" y="452" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="86" y="472" font-size="12" fill="#185FA5">A</text>
+<text x="114" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">a</text>
+<text x="114" y="516" font-size="11" text-anchor="middle" fill="#0C447C">＋ㄫ</text>
+<rect x="160" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="170" y="472" font-size="12" fill="#888780">S</text>
+<text x="198" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ung</text>
+<text x="198" y="516" font-size="11" text-anchor="middle" fill="#5F5E5A">yung</text>
+<rect x="244" y="452" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="254" y="472" font-size="12" fill="#185FA5">D</text>
+<text x="282" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">ai</text>
+<text x="282" y="516" font-size="11" text-anchor="middle" fill="#0C447C">iai</text>
+<rect x="328" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="338" y="472" font-size="12" fill="#888780">F</text>
+<text x="366" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">en</text>
+<rect x="412" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="422" y="472" font-size="12" fill="#888780">G</text>
+<text x="450" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">eng</text>
+<rect x="496" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="506" y="472" font-size="12" fill="#888780">H</text>
+<text x="534" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ang</text>
+<rect x="580" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="590" y="472" font-size="12" fill="#888780">J</text>
+<text x="618" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">an</text>
+<rect x="664" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="674" y="472" font-size="12" fill="#888780">K</text>
+<text x="702" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ing</text>
+<text x="702" y="516" font-size="11" text-anchor="middle" fill="#5F5E5A">uai</text>
+<rect x="748" y="452" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="758" y="472" font-size="12" fill="#888780">L</text>
+<text x="786" y="498" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">iang</text>
+<text x="786" y="516" font-size="11" text-anchor="middle" fill="#5F5E5A">uang</text>
+
+<rect x="160" y="536" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="170" y="556" font-size="12" fill="#888780">Z</text>
+<text x="198" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">eu</text>
+<rect x="244" y="536" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="254" y="556" font-size="12" fill="#888780">X</text>
+<text x="282" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ia</text>
+<text x="282" y="600" font-size="11" text-anchor="middle" fill="#5F5E5A">ua</text>
+<rect x="328" y="536" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="338" y="556" font-size="12" fill="#888780">C</text>
+<text x="366" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">au</text>
+<rect x="412" y="536" width="76" height="76" rx="10" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+<text x="422" y="556" font-size="12" fill="#185FA5">V</text>
+<text x="450" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#0C447C">yu</text>
+<text x="450" y="600" font-size="11" text-anchor="middle" fill="#0C447C">＋ㄓ ㄪ</text>
+<rect x="496" y="536" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="506" y="556" font-size="12" fill="#888780">B</text>
+<text x="534" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">in</text>
+<rect x="580" y="536" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="590" y="556" font-size="12" fill="#888780">N</text>
+<text x="618" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">iau</text>
+<rect x="664" y="536" width="76" height="76" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="674" y="556" font-size="12" fill="#888780">M</text>
+<text x="702" y="582" font-size="15" font-weight="500" text-anchor="middle" fill="#2C2C2A">ian</text>
 </g>
 
 <g font-family="sans-serif" font-size="12.5" fill="#2C2C2A">
-<text x="34" y="372">聲母：b p m f d t n l g k h j q x r z c s 用本鍵；zh→V　ch→I　sh→U；ㄫ→A　ㄬ→N　ㄪ→V</text>
-<text x="34" y="394">零聲母：拼式首字母佔聲母位　ㄨㄟ=WW　ㄨㄣ=WF　ㄧㄤ=YH　ㄩㄛ=YO　ㄩㄥ=YS　ㄡ=EU　ㄤ=AH　ㄦ=ER　ㄧ=YI　ㄨ=WU　ㄩ=YU</text>
-<text x="34" y="416">空韻母：ㄓ=VI　ㄔ=II　ㄕ=UI　ㄖ=RI　ㄗ/ㄗㄧ=ZI　ㄘ/ㄘㄧ=CI　ㄙ/ㄙㄧ=SI　　成音節鼻音：ㄇ=MM　ㄋ=NN　ㄫ=NG　ㄏㄇ=HM　ㄏㄫ=HA</text>
-<text x="34" y="438">聲調：<tspan font-weight="500">6</tspan> 陰　<tspan font-weight="500">7</tspan> 陽　<tspan font-weight="500">8</tspan> 上　<tspan font-weight="500">9</tspan> 去　<tspan font-weight="500">0</tspan> 入（第三鍵，可省；例 知=vi6 或 vi，汁=vi0）</text>
-<text x="34" y="462" fill="#5F5E5A">例：我=ao　你=ni　好=hc　中=vs　學=xt　車=ip　微=vw　雷=lw　女=nv　略=lt　皆=jd　為=ww　翁=ws</text>
+<text x="34" y="644">聲母：b p m f d t n l g k h j q x r z c s 用本鍵；zh→V　ch→I　sh→U；借鍵 ㄫ→A　ㄬ→N　ㄪ→V</text>
+<text x="34" y="666">零聲母：拼式首字母佔聲母位　ㄨㄟ=WW　ㄨㄣ=WF　ㄧㄤ=YH　ㄩㄛ=YO　ㄩㄥ=YS　ㄡ=EU　ㄤ=AH　ㄦ=ER　ㄧ=YI　ㄨ=WU　ㄩ=YU</text>
+<text x="34" y="688">空韻母：ㄓ=VI　ㄔ=II　ㄕ=UI　ㄖ=RI　ㄗ/ㄗㄧ=ZI　ㄘ/ㄘㄧ=CI　ㄙ/ㄙㄧ=SI　　成音節鼻音：ㄇ=MM　ㄋ=NN　ㄫ=NG　ㄏㄇ=HM　ㄏㄫ=HA</text>
+<text x="34" y="710" font-weight="500" fill="#993C1D">雙拼中不區分 ㄋ 與 ㄬ（都落在 N 鍵）；同理不區分 ㄗ/ㄗㄧ、ㄘ/ㄘㄧ、ㄙ/ㄙㄧ，也不區分 ㄓ 與 ㄓㄧ</text>
+<text x="34" y="732">聲調：6 陰　7 陽　8 上　9 去　0 入（第三鍵，可省）</text>
+<text x="34" y="754" fill="#5F5E5A">例：我=ao　你=ni　好=hc　中=vs　學=xt　車=ip　微=vw　雷=lw　女=nv　略=lt　皆=jd　為=ww　翁=ws</text>
 </g>
 </svg>
