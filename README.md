@@ -40,7 +40,7 @@
 
 ### 2.1 為什麼要有一套拼音
 
-字表以**注音符號**記錄讀音（如 `ㄓㄨㄥ`、`ㄬㄧㄛ˙`）。雙拼需要把音節拆成「聲母 + 韻母」兩段並各給一個鍵，因此先把注音轉寫成拉丁拼式——這套轉寫基於[老國音衆多拼音](https://github.com/baopaau/rime-bepemefe)方案，並自己做了調整。
+字表以**注音符號**記錄讀音（如 `ㄓㄨㄥ`、`ㄬㄧㄛ˙`）。雙拼需要把音節拆成「聲母 + 韻母」兩段並各給一個鍵，因此先把注音轉寫成拉丁拼式——這套轉寫基於[老國音衆多拼音](https://github.com/baopaau/rime-bepemefeve)方案，並自己做了調整。
 
 ### 2.2 注音符號 → 拼音　對應表
 
@@ -238,7 +238,7 @@
 
 **致謝**
 
-- [bepemefeve 老國音注音字音表](https://github.com/baopaau/rime-bepemefe)（抱豹）——字表、注音碼表，及其所彙集的老國音諸家拼音方案
+- [bepemefeve 老國音注音字音表兼 RIME 輸入方案整合](https://github.com/baopaau/rime-bepemefeve)（抱豹）——字表、注音碼表，及其所彙集的老國音諸家拼音方案
 - [小鶴雙拼](https://github.com/rime/rime-double-pinyin)（鶴／佛振）——鍵位設計
 - 電子化《校改國音字典》《學生字典》《國音新詩韻》、維基學院老國音審音字庫等字音數據來源（詳見 `bepemefeve.dict.yaml` 卷首）
 
