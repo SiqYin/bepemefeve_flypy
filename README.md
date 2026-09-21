@@ -205,7 +205,7 @@
    patch:
      schema_list:
        - schema: bepemefeve_flypy
-       - schema: bepemefeve_pingyin   # 若也想保留「國語拼音」
+       # 其他方案照樣往下追加即可
    ```
 
 3. 重新部署（小狼毫：右鍵托盤圖標 →「重新部署」）。
